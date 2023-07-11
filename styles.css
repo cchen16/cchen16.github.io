@@ -1,0 +1,176 @@
+a {
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    font-family: "Futura" !important;
+}
+
+
+
+
+body, ul {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS';
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+
+
+/* home page */
+.main {
+    background: url("img/wallpaper.jpeg") top center;
+    backdrop-filter: blur(3px);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    overflow: hidden;
+
+
+    text-align: center;
+    color: white;
+
+}
+
+
+.name {
+    position: absolute;
+    top: 35% !important;
+    width: 100%;
+}
+
+.name h1 {
+    font-size: 64px;
+}
+
+.menu {
+    position: relative;
+    top: 50% !important;
+    width: 100%;
+    font-family: "Futura";
+
+}
+
+
+.menu > ul > li {
+    display: inline-block;
+    margin-right: 60px;
+    list-style-type: none;
+
+}
+
+.menu a {
+    font-size: 24px;
+    text-decoration: none;
+
+}
+
+.menu a:link,
+      a:visited {
+    color: white !important;
+}
+
+
+  .menu a:hover, .menu li:hover > a {
+    opacity: 100%;
+  }
+
+
+.links {
+    position: absolute;
+    top: 90%;
+    width: 100%;
+}
+
+.links img {
+    background-color: transparent;
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+}
+
+.links a:link {
+    text-decoration: none;
+    margin-right: 20px;
+
+}
+
+
+
+
+/* extra styles */
+.opacity {
+    opacity: 85%;
+}
+.circular {
+    border-radius: 50% !important;
+}
+
+.emphasis {
+    font-style: italic;
+    padding: 7px;
+}
+
+/* begin sections */
+
+section {
+    overflow: hidden;
+    background-color: #F8F5F2;
+    text-align: left;
+    
+}
+
+.container {
+    margin-left: 5%;
+}
+
+.section-heading {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: #4D565F;
+}
+
+.section-heading h2 {
+    font-size: 40px;
+    position: relative;
+    padding-top: 50px;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+
+}
+
+.section-heading h2::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 60px;
+    height: 5px;
+    background: #9A6D4A;
+    bottom: 0;
+    left: 0;
+  }
+
+/* about section */
+
+.about ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about ul li {
+    padding-bottom: 15px;
+}
+
+.about ul i {
+    font-size: 20px;
+    padding-right: 10px;
+    color: #9A6D4A;
+    align-items: right;
+}
