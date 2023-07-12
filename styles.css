@@ -10,7 +10,9 @@ h1, h2, h3 {
     font-family: "Futura" !important;
 }
 
-
+p {
+    padding-bottom: 12px;
+}
 
 
 body, ul {
@@ -72,15 +74,15 @@ body, ul {
 
 }
 
-.menu a:link,
-      a:visited {
-    color: white !important;
+.menu a:visited {
+    color: white;
 }
 
 
-  .menu a:hover, .menu li:hover > a {
+  .menu ul li a:visited a:hover {
     opacity: 100%;
   }
+  
 
 
 .links {
@@ -157,6 +159,10 @@ section {
     left: 0;
   }
 
+
+
+
+
 /* about section */
 
 .about ul {
@@ -174,3 +180,45 @@ section {
     color: #9A6D4A;
     align-items: right;
 }
+
+/* academics section */
+
+.academcis icon-box {
+    margin-bottom: 20px;
+}
+
+.academics i {
+    float: left;
+    display: left;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 50px;
+    color: #9A6D4A;
+    font-size: 40px;
+}
+
+
+.academics .title h4 {
+    color: #4D565F;
+  }
+
+  .academics .title a {
+    text-decoration: none;
+    color: #4D565F;
+  }
+  .academics .title a:hover {
+    color: #9A6D4A;
+  }
+
+  .academics .title a:visited a:hover {
+    color: #4D565F; 
+  }
+  
+  .academics .description {
+    margin-left: 60px;
+  }
+
+  .icon-box:hover .description + .icon-box i {
+    color: #4D565F; 
+  }
