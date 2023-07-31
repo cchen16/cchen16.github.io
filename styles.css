@@ -1,5 +1,9 @@
 a {
-    color: white;
+    color: white !important;
+}
+
+a:hover {
+    opacity: 80%
 }
 
 a:hover {
@@ -42,6 +46,7 @@ body, ul {
 }
 
 
+
 .name {
     position: absolute;
     top: 35% !important;
@@ -71,6 +76,7 @@ body, ul {
 .menu a {
     font-size: 24px;
     text-decoration: none;
+    color:white;
 
 }
 
@@ -79,9 +85,7 @@ body, ul {
 }
 
 
-  .menu ul li a:visited a:hover {
-    opacity: 100%;
-  }
+
   
 
 
@@ -164,6 +168,11 @@ section {
 
 
 /* about section */
+.about img {
+    align-items: center;
+    padding: 20px;
+    padding-left: 5px;
+}
 
 .about ul {
     list-style: none;
@@ -205,10 +214,10 @@ section {
 
   .academics .title a {
     text-decoration: none;
-    color: #4D565F;
+    color: #4D565F !important;
   }
   .academics .title a:hover {
-    color: #9A6D4A;
+    color: #9A6D4A !important;
   }
 
   .academics .title a:visited a:hover {
