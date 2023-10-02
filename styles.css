@@ -10,9 +10,10 @@ a:hover {
     text-decoration: none;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h6 {
     font-family: "Futura" !important;
 }
+
 
 p {
     padding-bottom: 12px;
@@ -130,6 +131,7 @@ section {
     overflow: hidden;
     background-color: #F8F5F2;
     text-align: left;
+    padding-bottom: 40px;
     
 }
 
@@ -162,6 +164,13 @@ section {
     bottom: 0;
     left: 0;
   }
+
+  .section-title h3 {
+    color: #4D565F;
+    padding-bottom: 10px;
+  }
+
+
 
 
 
@@ -223,6 +232,7 @@ section {
   .academics .title a:visited a:hover {
     color: #4D565F; 
   }
+
   
   .academics .description {
     margin-left: 60px;
@@ -231,3 +241,33 @@ section {
   .icon-box:hover .description + .icon-box i {
     color: #4D565F; 
   }
+
+  /* skills section */
+  .skills {
+    background-color: #F1EBE4;
+  }
+
+  .skills .progress {
+    height: 20px;
+    background-color: #EAE1D7;
+
+  }
+
+  .skills .progress-bar {
+    background-color: #9A6D4A;
+
+  }
+
+  .skills .skill {
+    font-family: "Futura";
+    font-size: 1rem;
+    color: #4D565F; 
+  }
+
+
+
+
+
+
+  /* resume section */
+
